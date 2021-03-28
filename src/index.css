@@ -18,9 +18,11 @@ img {
   justify-content: space-around;
 }
 
-.menu p {
+.menu-text {
   padding: 8px 16px;
   border-right: 1px solid black;
+  text-decoration: none;
+  color: black;
 }
 
 .menu p:last-child {
