@@ -23,12 +23,12 @@ function Home() {
         }
     ];
 
-    return(
+    return (
         <div className="content">
-        <FilterList title={`rinkis miestą:`} filters={cities}/>
-        <ImageList data={data} />
-        <FilterList title="rinkis patirtį:" filters={experiences}/>
-      </div>
+            <FilterList title={`rinkis miestą:`} filters={cities}/>
+            <ImageList data={data} />
+            <FilterList title="rinkis patirtį:" filters={experiences}/>
+        </div>
     )
 }
 

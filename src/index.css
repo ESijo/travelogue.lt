@@ -2,7 +2,7 @@ body {
   font-family: raleway, sans-serif;
 }
 
-img {
+.nav img {
   width: 160px;
 }
 
@@ -83,4 +83,27 @@ h1 p {
 .card-image {
   width: 300px;
   height: 292px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-container h1 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.services-column {
+  display: flex;
+  flex-direction: row;
+  max-width: 780px;
+}
+
+.services-column img {
+  width: 401px;
 }

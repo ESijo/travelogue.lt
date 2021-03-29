@@ -1,5 +1,5 @@
-function AboutUs(){
-    return(
+function AboutUs() {
+    return (
         <h1>About us</h1>
     )
 }

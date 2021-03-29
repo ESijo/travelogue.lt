@@ -6,10 +6,10 @@ import {
 function NavigationBar() {
     const menuList = [
         {text: 'visos vietos', to: '/'}, 
-        {text: 'apie mus', to: '/'}, 
-        {text: 'paslaugos', to: '/'}, 
-        {text: 'straipsniai & top list\'ai', to: '/'}, 
-        {text: 'maršrutai', to: '/'}, 
+        {text: 'apie mus', to: '/aboutus'}, 
+        {text: 'paslaugos', to: '/services'}, 
+        {text: 'straipsniai & top list\'ai', to: '/articles'}, 
+        {text: 'maršrutai', to: '/itineraries'}, 
         {text: 'kontaktai', to: '/contacts'}
     ]
     return (
