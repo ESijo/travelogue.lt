@@ -1,5 +1,6 @@
 body {
   font-family: raleway, sans-serif;
+  box-sizing: border-box;
 }
 
 .nav img {
@@ -98,12 +99,27 @@ h1 p {
   font-weight: normal;
 }
 
-.services-column {
+.services-row {
   display: flex;
   flex-direction: row;
-  max-width: 780px;
+  max-width: 860px;
+  margin: 20px 0;
 }
 
-.services-column img {
+.services-row img {
   width: 401px;
+}
+
+.services-column {
+  margin: 20px 60px;
+}
+
+.services-column h2 {
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.services-column p {
+  margin: 20px 0 50px 0;
 }
